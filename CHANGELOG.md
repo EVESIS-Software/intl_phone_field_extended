@@ -6,7 +6,7 @@
 
 ## [3.2.0] - Release
 
-- Add `autofillHints` and disable posibility.
+- Add `autofillHints` and disable possibility.
 - Improve search (#243).
 - Sort countries by name ascending (#243).
 - Use flag emoji instead of images on mobile (#243).
@@ -47,7 +47,7 @@
 ## [2.1.0] - Added more parameters
 
 - **Breaking** dropDownArrowIcon and dropDownArrowColor parameters are now replaced by dropDownIcon.
-- Control autovalidateMode of text input added.
+- Control autoValidateMode of text input added.
 - showCountryFlag param added.
 - textAlignVertical param added.
 - Icon position feature added.
@@ -76,7 +76,7 @@
 
 ## [1.4.0] - Bug Fixes and improvements.
 
-- Searchbar label text can be now set.
+- SearchBar label text can be now set.
 - Picker popup bug fixed.
 
 ## [1.3.0] - Added more parameters
