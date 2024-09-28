@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:intl_phone_field_extended/intl_phone_field.dart';
 
@@ -9,6 +11,7 @@ class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _MyAppState createState() => _MyAppState();
 }
 
@@ -65,10 +68,10 @@ class _MyAppState extends State<MyApp> {
                   ),
                   languageCode: "en",
                   onChanged: (phone) {
-                    print(phone.completeNumber);
+                    log(phone.completeNumber);
                   },
                   onCountryChanged: (country) {
-                    print('Country changed to: ${country.name}');
+                    log('Country changed to: ${country.name}');
                   },
                 ),
                 const SizedBox(
