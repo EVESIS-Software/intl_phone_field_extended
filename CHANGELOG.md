@@ -1,3 +1,7 @@
+## [3.3.2] - Release
+
+- Updated the phone number length for Benin.
+
 ## [3.3.1] - Release
 
 #### The Life of the intl_phone_field_extended Fork Begins Here
